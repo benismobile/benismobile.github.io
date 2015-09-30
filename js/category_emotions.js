@@ -1,0 +1,156 @@
+var categoryEmotions = {
+
+    
+    
+    "610":{ "variableId":140 , "categoryId":610 , "emotionId": 120 },
+    "611":{ "variableId":140 , "categoryId":611 , "emotionId": 117 },
+    "612":{ "variableId":140 , "categoryId":612 , "emotionId": 111 },
+    "613":{ "variableId":140 , "categoryId":613 , "emotionId": 161 },
+    "614":{ "variableId":140 , "categoryId":614 , "emotionId": 164 },
+    
+    "615":{ "variableId":141 , "categoryId":615 , "emotionId": 105 },
+    "616":{ "variableId":141 , "categoryId":616 , "emotionId": 46 },
+    "617":{ "variableId":141 , "categoryId":617 , "emotionId": 43 },
+    "618":{ "variableId":141 , "categoryId":618 , "emotionId": 53 },
+    "619":{ "variableId":141 , "categoryId":619 , "emotionId": 56 },
+    
+    
+    "620":{ "variableId":142 , "categoryId":620 , "emotionId": 120 },
+    "621":{ "variableId":142 , "categoryId":621 , "emotionId": 114 },
+    "622":{ "variableId":142 , "categoryId":622 , "emotionId": 73 },
+    "623":{ "variableId":142 , "categoryId":623 , "emotionId": 164 },
+    "624":{ "variableId":142 , "categoryId":624 , "emotionId": 170 },
+    
+    "625":{ "variableId":143 , "categoryId":625 , "emotionId":55 },
+    "626":{ "variableId":143 , "categoryId":626 , "emotionId":53 },
+    "627":{ "variableId":143 , "categoryId":627 , "emotionId":51 },
+    "628":{ "variableId":143 , "categoryId":628 , "emotionId":41 },
+    "629":{ "variableId":143 , "categoryId":629 , "emotionId":43},
+    "630":{ "variableId":143 , "categoryId":630 , "emotionId":45},
+   
+    
+    "650":{ "variableId":146 , "categoryId":650 , "emotionId": 170 },
+    "651":{ "variableId":146 , "categoryId":651 , "emotionId": 168 },
+    "652":{ "variableId":146 , "categoryId":652 , "emotionId": 166 },
+    "653":{ "variableId":146 , "categoryId":653 , "emotionId": 164 },
+    "654":{ "variableId":146 , "categoryId":654 , "emotionId": 161 },
+    "655":{ "variableId":146 , "categoryId":655 , "emotionId": 111 },
+    "656":{ "variableId":146 , "categoryId":656 , "emotionId": 114 },
+    "657":{ "variableId":146 , "categoryId":657 , "emotionId": 116 },
+    "658":{ "variableId":146 , "categoryId":658 , "emotionId": 118 },
+    "659":{ "variableId":146 , "categoryId":659 , "emotionId": 120 },
+    
+    "660":{ "variableId":147 , "categoryId":660 , "emotionId": 170 },
+    "661":{ "variableId":147 , "categoryId":661 , "emotionId": 168 },
+    "662":{ "variableId":147 , "categoryId":662 , "emotionId": 166 },
+    "663":{ "variableId":147 , "categoryId":663 , "emotionId": 164 },
+    "664":{ "variableId":147 , "categoryId":664 , "emotionId": 161 },
+    "665":{ "variableId":147 , "categoryId":665 , "emotionId": 111 },
+    "666":{ "variableId":147 , "categoryId":666 , "emotionId": 114 },
+    "667":{ "variableId":147 , "categoryId":667 , "emotionId": 116 },
+    "668":{ "variableId":147 , "categoryId":668 , "emotionId": 118 },
+    "669":{ "variableId":147 , "categoryId":669 , "emotionId": 120 },
+     
+    
+    "680":{ "variableId":149 , "categoryId":680 , "emotionId": 170 },
+    "681":{ "variableId":149 , "categoryId":681 , "emotionId": 168 },
+    "682":{ "variableId":149 , "categoryId":682 , "emotionId": 166 },
+    "683":{ "variableId":149 , "categoryId":683 , "emotionId": 164 },
+    "684":{ "variableId":149 , "categoryId":684 , "emotionId": 161 },
+    "685":{ "variableId":149 , "categoryId":685 , "emotionId": 111 },
+    "686":{ "variableId":149 , "categoryId":686 , "emotionId": 114 },
+    "687":{ "variableId":149 , "categoryId":687 , "emotionId": 116 },
+    "688":{ "variableId":149 , "categoryId":688 , "emotionId": 118 },
+    "689":{ "variableId":149 , "categoryId":689 , "emotionId": 120 },
+    
+    "690":{ "variableId":150 , "categoryId":690 , "emotionId": 170 },
+    "691":{ "variableId":150 , "categoryId":691 , "emotionId": 168 },
+    "692":{ "variableId":150 , "categoryId":692 , "emotionId": 166 },
+    "693":{ "variableId":150 , "categoryId":693 , "emotionId": 164 },
+    "694":{ "variableId":150 , "categoryId":694 , "emotionId": 161 },
+    "695":{ "variableId":150 , "categoryId":695 , "emotionId": 111 },
+    "696":{ "variableId":150 , "categoryId":696 , "emotionId": 114 },
+    "697":{ "variableId":150 , "categoryId":697 , "emotionId": 116 },
+    "698":{ "variableId":150 , "categoryId":698 , "emotionId": 118 },
+    "699":{ "variableId":150 , "categoryId":699 , "emotionId": 120 },
+      
+    "700":{ "variableId":151 , "categoryId":700 , "emotionId": 170 },
+    "701":{ "variableId":151 , "categoryId":701 , "emotionId": 168 },
+    "702":{ "variableId":151 , "categoryId":702 , "emotionId": 166 },
+    "703":{ "variableId":151 , "categoryId":703 , "emotionId": 164 },
+    "704":{ "variableId":151 , "categoryId":704 , "emotionId": 161 },
+    "705":{ "variableId":151 , "categoryId":705 , "emotionId": 111 },
+    "706":{ "variableId":151 , "categoryId":706 , "emotionId": 114 },
+    "707":{ "variableId":151 , "categoryId":707 , "emotionId": 116 },
+    "708":{ "variableId":151 , "categoryId":708 , "emotionId": 118 },
+    "709":{ "variableId":151 , "categoryId":709 , "emotionId": 120 },
+          
+    "710":{ "variableId":152 , "categoryId":710 , "emotionId": 170 },
+    "711":{ "variableId":152 , "categoryId":711 , "emotionId": 168 },
+    "712":{ "variableId":152 , "categoryId":712 , "emotionId": 166 },
+    "713":{ "variableId":152 , "categoryId":713 , "emotionId": 164 },
+    "714":{ "variableId":152 , "categoryId":714 , "emotionId": 161 },
+    "715":{ "variableId":152 , "categoryId":715 , "emotionId": 111 },
+    "716":{ "variableId":152 , "categoryId":716 , "emotionId": 114 },
+    "717":{ "variableId":152 , "categoryId":717 , "emotionId": 116 },
+    "718":{ "variableId":152 , "categoryId":718 , "emotionId": 118 },
+    "719":{ "variableId":152 , "categoryId":719 , "emotionId": 120 },
+      
+    
+    "720":{ "variableId":153 , "categoryId":720 , "emotionId": 10 },
+    "721":{ "variableId":153 , "categoryId":721 , "emotionId": 8 },
+    "722":{ "variableId":153 , "categoryId":722 , "emotionId": 6 },
+    "723":{ "variableId":153 , "categoryId":723 , "emotionId": 4 },
+    "724":{ "variableId":153 , "categoryId":724 , "emotionId": 2 },
+    "725":{ "variableId":153 , "categoryId":725 , "emotionId": 11 },
+    "726":{ "variableId":153 , "categoryId":726 , "emotionId": 13 },
+    "727":{ "variableId":153 , "categoryId":727 , "emotionId": 15 },
+    "728":{ "variableId":153 , "categoryId":728 , "emotionId": 17 },
+    "729":{ "variableId":153 , "categoryId":729 , "emotionId": 19 },
+      
+    "730":{ "variableId":154 , "categoryId":730 , "emotionId":20 },
+    "731":{ "variableId":154 , "categoryId":731 , "emotionId":18 },
+    "732":{ "variableId":154 , "categoryId":732 , "emotionId":16 },
+    "733":{ "variableId":154 , "categoryId":733 , "emotionId":13 },
+    "734":{ "variableId":154 , "categoryId":734 , "emotionId":11},
+    "735":{ "variableId":154 , "categoryId":735 , "emotionId":1},
+    
+    
+    
+    "736":{ "variableId":155 , "categoryId":736 , "emotionId":13 },
+    "737":{ "variableId":155 , "categoryId":737 , "emotionId":12 },
+    "738":{ "variableId":155 , "categoryId":738 , "emotionId":11 },
+    "739":{ "variableId":155 , "categoryId":739 , "emotionId":1 },
+    "740":{ "variableId":155 , "categoryId":740 , "emotionId":2},
+    "741":{ "variableId":155 , "categoryId":741 , "emotionId":3},
+    
+    
+    "754":{ "variableId":158 , "categoryId":754 , "emotionId":45 },
+    "755":{ "variableId":158 , "categoryId":755 , "emotionId":43 },
+    "756":{ "variableId":158 , "categoryId":756 , "emotionId":41 },
+    "757":{ "variableId":158 , "categoryId":757 , "emotionId":51 },
+    "758":{ "variableId":158 , "categoryId":758 , "emotionId":53},
+    "759":{ "variableId":158 , "categoryId":759 , "emotionId":55},
+    
+    "760":{ "variableId":159 , "categoryId":760 , "emotionId":3 },
+    "761":{ "variableId":159 , "categoryId":761 , "emotionId":2 },
+    "762":{ "variableId":159 , "categoryId":762 , "emotionId":1 },
+    "763":{ "variableId":159 , "categoryId":763 , "emotionId":11 },
+    "764":{ "variableId":159 , "categoryId":764 , "emotionId":12},
+    "765":{ "variableId":159 , "categoryId":765 , "emotionId":13},
+    
+    "766":{ "variableId":160 , "categoryId":766 , "emotionId": 150 },
+    "767":{ "variableId":160 , "categoryId":767 , "emotionId": 147 },
+    "768":{ "variableId":160 , "categoryId":768 , "emotionId": 144 },
+    "769":{ "variableId":160 , "categoryId":769 , "emotionId": 141 },
+    "770":{ "variableId":160 , "categoryId":770 , "emotionId": 101 },
+    "771":{ "variableId":160 , "categoryId":771 , "emotionId": 104 },
+    
+    "772":{ "variableId":161 , "categoryId":772 , "emotionId": 10 },
+    "773":{ "variableId":161 , "categoryId":773 , "emotionId": 8 },
+    "774":{ "variableId":161 , "categoryId":774 , "emotionId": 6 },
+    "775":{ "variableId":161 , "categoryId":775 , "emotionId": 3 },
+    "776":{ "variableId":161 , "categoryId":776 , "emotionId": 1 },
+    "777":{ "variableId":161 , "categoryId":777 , "emotionId": 11 }
+
+} ;
